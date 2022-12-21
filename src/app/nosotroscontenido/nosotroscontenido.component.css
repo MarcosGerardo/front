@@ -1,0 +1,30 @@
+#about-section {
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+.blockabout {
+    padding: 15px;
+    background: rgb(255, 255, 255);
+}
+
+.blockabout-inner {
+    padding: 80px;
+    border: 3px solid rgba(221, 92, 0, 0);
+    border-radius: 15px 50px;
+    
+}
+
+.sosmed-horizontal a i {
+    border: 1px solid #070707;
+    border-radius: 50%;
+    color: #070707;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.3s;
+}

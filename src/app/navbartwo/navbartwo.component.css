@@ -1,0 +1,32 @@
+.sitewidth {
+    border: 1px solid rgb(243,106,36,255);
+    overflow: hidden;
+    background: #f3f3f3;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+marquee {
+    float: left;
+    height: 70px;
+    position: absolute;
+    margin-left: 80px;
+}
+.br-title {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FFF;
+    float: left;
+    background-color: rgb(243,106,36,255);
+    left: 0px;
+    top: 0px;
+    height: 40px;
+}
+.sitewidth ul li {
+    float: inline-end;
+    list-style: none;
+    font-weight: 500;
+    font-size: 13px;
+    height: 10px;
+
+    
+}

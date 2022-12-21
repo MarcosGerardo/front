@@ -1,0 +1,26 @@
+
+<div class="container">
+    <h3 style="text-align:center">Nuestros Paquetes!👌</h3>
+    <div class="row" id="ads">
+        <!--Category Card --> 
+        <div class="col-md-4"  *ngFor="let producto of productos">
+        <div class="card rounded">
+            <div class="card-image">
+                <span class="card-notify-badge">{{producto.precio}}$</span>
+                <span class="card-notify-year">☆</span>
+                <img class="ing-fluid" [src]=producto.imagen> 
+            </div>           
+            <div class="card-image-overlay m-auto">
+                <span class="card-detail-badge">{{producto.nombre}}</span>
+            </div>
+            <div class="card-body text-center">
+                <span>{{producto.descripcion}}</span>
+                </div>
+                <a class="ad-btn" href="#">PEDIR </a>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>    
+
